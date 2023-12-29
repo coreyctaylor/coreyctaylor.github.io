@@ -23,6 +23,7 @@ export default {
   plugins: [
     "tailwindcss-animate",
     "@tailwindcss/typography",
+    require("@tailwindcss/forms"),
     plugin(function ({ addUtilities }) {
       addUtilities({
         ".border-b-1": {
