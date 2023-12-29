@@ -31,16 +31,18 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
+      <header className="absolute inset-x-0 top-0 z-50 p-5">
         <div className="container">
           <nav className="flex items-center lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/*about-section" className="-m-1.5 p-1.5">
                 <div className="flex -space-x-1 overflow-hidden">
                   <img
-                    className="inline-block h-auto w-auto rounded-full"
+                    className="inline-block rounded-full"
                     src={CTLogo}
                     alt="CT Logo"
+                    width="50"
+                    height="50"
                   />
                 </div>
               </a>
@@ -93,7 +95,7 @@ export default function Home() {
             }}
           ></div>
         </div>
-        <div className="flex items-center justify-center pt-20 flex-col">
+        <div className="flex items-center justify-center pt-20 pb-56 flex-col">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl p-5">
             Corey Taylor
           </h1>
@@ -111,18 +113,19 @@ export default function Home() {
             height="270"
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48">
+        <hr className="my-8 border-t border-gray-300" />
+        <div className="mx-auto max-w-2xl pb-32 sm:py-48 lg:py-36">
           <div className="text-center">
             <div id="about-section" ref={aboutRef}>
-              <div className="text-4xl mt-16">About me</div>
+              <div className="text-4xl">About me</div>
             </div>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Graduate of California State San Marcos in May 2023 with a B.S. in
-              Software Engineering, and currently pursuing a Master's in
-              Computer Engineering at San Diego State University. Experience
-              with developing web applications, and as a result of working on
-              these projects, and learned many different programming languages,
-              frameworks, technologies, and tools.
+              Graduated from California State San Marcos in May 2023 with a B.S.
+              in Software Engineering. Currently enrolled in a Master's program
+              in Computer Engineering at San Diego State University. Possesses
+              experience in developing web applications and has acquired
+              proficiency in various programming languages, frameworks,
+              technologies, and tools.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -171,15 +174,17 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <hr className="my-8 border-t border-gray-300 mt-64" />
+
         {/* Projects */}
         <Element>
-          <div className=" pb-24 sm:py-32">
+          <div className=" pb-8 sm:pt-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
                 <h2
                   id="projects-section"
                   ref={projectsRef}
-                  className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl pt-20"
+                  className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl pt-12"
                 >
                   My Projects
                 </h2>
@@ -286,7 +291,7 @@ export default function Home() {
                 </div>
               </div>
               {/* ProUML */}
-              <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1  sm:mt-20 lg:mx-0 lg:flex lg:max-w-none shadow-2xl ring-black ring-opacity-10 bg-gray-100">
+              <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none shadow-2xl ring-black ring-opacity-10 bg-gray-100">
                 <div className="p-8 sm:p-10 lg:flex-auto">
                   <h3 className="text-2xl font-bold tracking-tight text-gray-900">
                     ProUML
@@ -386,16 +391,17 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <hr className="my-8 border-t border-gray-300 mt-64" />
         </Element>
         <Element id="contact-section" ref={contactRef}>
-          <div className="px-6 py-12 sm:py-12 lg:px-8">
+          <div className="px-6 p-12 sm:pt-44 sm:pb-12 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Contact me!
               </h2>
             </div>
             <form
-              action="http://localhost:3001/submit-form"
+              action="/submit-form"
               method="POST"
               className="mx-auto mt-16 max-w-xl sm:mt-16"
             >
@@ -448,6 +454,7 @@ export default function Home() {
             </form>
           </div>
         </Element>
+
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
@@ -461,6 +468,10 @@ export default function Home() {
           ></div>
         </div>
       </div>
+      \{" "}
+      <footer className="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2023 Corey Taylor. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
