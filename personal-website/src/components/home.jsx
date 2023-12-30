@@ -32,21 +32,28 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      <header className="absolute inset-x-0 top-0 z-50 p-5">
+      <header className="absolute inset-x-0 top-0 z-50 p-5 bg-gray-800 text-white py-2 text-center">
         <div className="container">
           <nav className="flex items-center lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
-              <a href="/#about-section" className="-m-1.5 p-1.5">
+              <Link
+                to="about-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="-m-1.5 p-1.5"
+              >
                 <div className="flex -space-x-1 overflow-hidden">
                   <img
-                    className="inline-block rounded-full"
+                    className="inline-block rounded-full transform transition-transform duration-300 hover:scale-105 cursor-pointer m-1"
                     src={CTLogo}
                     alt="CT Logo"
                     width="50"
                     height="50"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="flex lg:flex ml-6 gap-x-12 lg:gap-x-12">
               <Link
@@ -55,7 +62,7 @@ export default function Home() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-lg font-semibold leading-6 text-gray-900 hover:text-black transform transition-transform duration-300 hover:scale-105 cursor-pointer"
+                className="text-lg font-semibold leading-6 text-white transform transition-transform duration-300 hover:scale-105 cursor-pointer"
               >
                 About
               </Link>
@@ -65,7 +72,7 @@ export default function Home() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-lg font-semibold leading-6 text-gray-900 hover:text-black transform transition-transform duration-300 hover:scale-105 cursor-pointer"
+                className="text-lg font-semibold leading-6 text-white transform transition-transform duration-300 hover:scale-105 cursor-pointer"
               >
                 Projects
               </Link>
@@ -75,7 +82,7 @@ export default function Home() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-lg font-semibold leading-6 text-gray-900 hover:text-black transform transition-transform duration-300 hover:scale-105 cursor-pointer"
+                className="text-lg font-semibold leading-6 text-white transform transition-transform duration-300 hover:scale-105 cursor-pointer"
               >
                 Contact
               </Link>
@@ -83,7 +90,7 @@ export default function Home() {
           </nav>
         </div>
       </header>
-      <div className="flex-grow relative isolate px-6 pt-14 mb-36 lg:px-8">
+      <div className="flex-grow relative isolate px-6 pt-14 mb-32 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -417,7 +424,7 @@ export default function Home() {
           ></div>
         </div>
       </div>
-      <div className="bg-gray-800 text-white py-4 text-center">
+      <div className="bg-gray-800 text-white py-6 text-center">
         <p>&copy; 2023 Corey Taylor. All rights reserved.</p>
       </div>
     </div>
