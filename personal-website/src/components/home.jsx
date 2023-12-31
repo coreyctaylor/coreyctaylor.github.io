@@ -46,7 +46,7 @@ export default function Home() {
               >
                 <div className="flex -space-x-1 overflow-hidden">
                   <img
-                    className="inline-block rounded-full transform transition-transform duration-300 hover:scale-105 cursor-pointer m-1"
+                    className="inline-block rounded-full transform transition-transform duration-300 hover:scale-105 cursor-pointer m-1 mx-auto"
                     src={CTLogo}
                     alt="CT Logo"
                     width="50"
@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className="flex lg:flex ml-6 gap-x-12 lg:gap-x-12">
+            <div className="flex lg:flex ml-6 gap-x-12 lg:gap-x-12 mx-auto">
               <Link
                 to="about-section"
                 spy={true}
@@ -107,10 +107,10 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl p-5">
             Corey Taylor
           </h1>
-          <p className="mt-2 text-2xl leading-8 text-gray-600">
+          <p className="mt-2 text-2xl leading-8 text-gray-600 text-center">
             B.S. Software Engineering 2023
           </p>
-          <p className="mt-2 text-2xl leading-8 text-gray-600">
+          <p className="mt-2 text-2xl leading-8 text-gray-600 text-center">
             M.S. Computer Engineering Dec. 2024
           </p>
           <img
@@ -155,7 +155,7 @@ export default function Home() {
             >
               My Tech Stack
             </h2>
-            <div className="mx-auto mt-10 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
               <ReactIcon />
               <TailwindIcon />
               <JavaScriptIcon />
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mx-auto justify-between px-6 lg:px-8">
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
               <HTMLIcon />
               <CSSIcon />
               <SQLIcon />
@@ -173,7 +173,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mx-auto justify-between pt-8 px-6 lg:px-8">
-            <div className="mx-auto mt-5 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
               <GitIcon />
               <BashIcon />
               <GoIcon />
@@ -282,7 +282,7 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                <div className="-mt-2 py-8 mr-11 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                <div className="-mt-2 py-8 mx-auto lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0 text-center">
                   <img
                     className="inline-block mt-8 rounded-md shadow-lg ring-1 ring-black ring-opacity-5"
                     src={ACUDashboardPage}
@@ -381,7 +381,7 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                <div className="-mt-2 py-8 mr-11 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                <div className="-mt-2 py-8 mx-auto lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0 text-center">
                   <img
                     className="inline-block mt-4 rounded-md shadow-lg ring-1 ring-black ring-opacity-5"
                     src={ProUMLDashboardPage}
