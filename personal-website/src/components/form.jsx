@@ -5,7 +5,6 @@ import Modal from "react-modal";
 export function Form() {
   const [isSuccessModalOpen, setSuccessModalOpen] = useState(false);
   const [isErrorModalOpen, setErrorModalOpen] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(""); // Move the state here
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,31 +16,29 @@ export function Form() {
     const emailRegex = /\S+@\S+\.\S+/;
     if (!emailRegex.test(emailValue) || messageValue === "") {
       // Show an error modal indicating the fields are required
-      setErrorMessage("Please enter a valid email address and message.");
       setErrorModalOpen(true);
       return;
     }
 
-    // emailjs
-    //   .sendForm(
-    //     "service_ssxrqrt",
-    //     "template_hvt34wc",
-    //     form.current,
-    //     "dLOCKCAD8tV31aBwD"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //       // Show a pop-up or alert
-    //       setSuccessModalOpen(true);
-    //       // Clear the form
-    //       form.current.reset();
-    //     },
-    //     (error) => {
-    //       setErrorMessage("Something went wrong. Please try again.");
-    //        setErrorModalOpen(true);
-    //     }
-    //   );
+    emailjs
+      .sendForm(
+        "service_ssxrqrt",
+        "template_hvt34wc",
+        form.current,
+        "dLOCKCAD8tV31aBwD"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          // Show a pop-up or alert
+          setSuccessModalOpen(true);
+          // Clear the form
+          form.current.reset();
+        },
+        (error) => {
+          setErrorModalOpen(true);
+        }
+      );
   };
 
   return (
@@ -101,10 +98,7 @@ export function Form() {
       {/* Success Modal */}
       <Modal
         isOpen={isSuccessModalOpen}
-        onRequestClose={() => {
-          setSuccessModalOpen(false);
-          setErrorMessage(""); // Clear the error message when the modal is closed
-        }}
+        onRequestClose={() => setSuccessModalOpen(false)}
         contentLabel="Email Sent Modal"
         className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-8 rounded-md shadow-md"
         overlayClassName="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50"
@@ -114,11 +108,8 @@ export function Form() {
             Your email has been sent!
           </p>
           <button
-            onClick={() => {
-              setErrorModalOpen(false);
-              setErrorMessage(""); // Clear the error message when the modal is closed
-            }}
-            className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-500"
+            onClick={() => setSuccessModalOpen(false)}
+            className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-500"
           >
             Close
           </button>
@@ -128,10 +119,7 @@ export function Form() {
       {/* Error Modal */}
       <Modal
         isOpen={isErrorModalOpen}
-        onRequestClose={() => {
-          setErrorModalOpen(false);
-          setErrorMessage(""); // Clear the error message when the modal is closed
-        }}
+        onRequestClose={() => setErrorModalOpen(false)}
         contentLabel="Error Modal"
         className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-8 rounded-md shadow-md"
         overlayClassName="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50"
