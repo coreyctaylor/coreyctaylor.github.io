@@ -46,7 +46,7 @@ export default function Home() {
               >
                 <div className="flex -space-x-1 overflow-hidden">
                   <img
-                    className="inline-block rounded-full transform transition-transform duration-300 hover:scale-105 cursor-pointer m-1 mx-auto"
+                    className="inline-block rounded-full transform transition-transform duration-300 hover:scale-105 cursor-pointer p-0.5 mx-auto"
                     src={CTLogo}
                     alt="CT Logo"
                     width="50"
