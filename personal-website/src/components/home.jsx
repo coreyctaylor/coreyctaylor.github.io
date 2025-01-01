@@ -124,18 +124,15 @@ export default function Home() {
           />
         </div>
         <hr className="my-8 border-t border-gray-300" />
-        <div className="mx-auto max-w-2xl pb-32 sm:py-48 lg:py-36">
+        <div className="mx-auto max-w-2xl pb-32 sm:py-46 lg:py-32">
           <div className="text-center">
             <div id="about-section" ref={aboutRef}>
-              <div className="text-4xl">About me</div>
+              <div className="text-4xl pb-10">About me</div>
             </div>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Graduated from California State San Marcos in May 2023 with a B.S.
-              in Software Engineering. Currently enrolled in a Master's program
-              in Computer Engineering at San Diego State University. Possesses
-              experience in developing web applications and has acquired
-              proficiency in various programming languages, frameworks,
-              technologies, and tools.
+              Graduated with a Master’s in Computer Engineering from San Diego
+              State University. Currently working as a Software Engineer at
+              General Atomics.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -525,7 +522,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-gray-800 text-white py-6 text-center">
-        <p>&copy; 2023 Corey Taylor. All rights reserved.</p>
+        <p>&copy; 2025 Corey Taylor. All rights reserved.</p>
       </div>
     </div>
   );
