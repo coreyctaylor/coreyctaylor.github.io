@@ -116,6 +116,7 @@ export default function Home() {
           </p>
           <img
             className="inline-block rounded-full overflow-hidden m-16 shadow-2xl ring-black ring-opacity-10"
+            loading="lazy"
             src={ProfilePicture}
             alt="Profile Picture"
             width="270"
