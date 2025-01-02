@@ -109,10 +109,10 @@ export default function Home() {
             Corey Taylor
           </h1>
           <p className="mt-2 text-2xl leading-8 text-gray-600 text-center">
-            B.S. Software Engineering 2023
+            M.S. Computer Engineering
           </p>
           <p className="mt-2 text-2xl leading-8 text-gray-600 text-center">
-            M.S. Computer Engineering Dec. 2024
+            B.S. Software Engineering
           </p>
           <img
             className="inline-block rounded-full overflow-hidden m-16 shadow-2xl ring-black ring-opacity-10"
