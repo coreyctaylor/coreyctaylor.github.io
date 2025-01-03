@@ -6,6 +6,7 @@ import ACUDashboardPage from "../assets/ACUDashboardPage.png";
 import ProfilePicture from "../assets/PFP2.png";
 import WebsitePicture from "../assets/WebsitePicture.png";
 import { Form } from "../components/form";
+import { Link, Element } from "react-scroll";
 
 import {
   ReactIcon,
@@ -14,17 +15,11 @@ import {
   TypeScriptIcon,
   CPPIcon,
   HTMLIcon,
-  CSSIcon,
   SQLIcon,
-  PythonIcon,
-  JavaIcon,
   GitIcon,
   BashIcon,
-  GoIcon,
-  AWSIcon,
   NodeJSIcon,
 } from "./icons";
-import { Link, Element } from "react-scroll";
 
 export default function Home() {
   const aboutRef = useRef(null);
@@ -154,29 +149,20 @@ export default function Home() {
             >
               My Tech Stack
             </h2>
-            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
+            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
+              <CPPIcon />
               <ReactIcon />
               <TailwindIcon />
               <JavaScriptIcon />
               <TypeScriptIcon />
-              <CPPIcon />
             </div>
           </div>
           <div className="mx-auto justify-between px-6 lg:px-8">
-            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
+            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
               <HTMLIcon />
-              <CSSIcon />
               <SQLIcon />
-              <PythonIcon />
-              <JavaIcon />
-            </div>
-          </div>
-          <div className="mx-auto justify-between pt-8 px-6 lg:px-8">
-            <div className="mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
               <GitIcon />
               <BashIcon />
-              <GoIcon />
-              <AWSIcon />
               <NodeJSIcon />
             </div>
           </div>
@@ -386,9 +372,9 @@ export default function Home() {
                     alt="ACU Dashboard Page"
                   />
                   <a
-                    href="https://github.com/junioryono/Bank-Website" // Replace with your desired external link
-                    target="_blank" // Open the link in a new tab
-                    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+                    href="https://github.com/junioryono/Bank-Website"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="mt-5 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 hover:scale-105"
                   >
                     View this project

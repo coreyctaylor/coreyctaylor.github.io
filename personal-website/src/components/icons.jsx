@@ -1,11 +1,7 @@
 import React from "react";
 
 export const ReactIcon = () => (
-  <a
-    href="https://react.dev/learn" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
+  <a href="https://react.dev/learn" target="_blank" rel="noopener noreferrer">
     <svg
       width="100px"
       height="100px"
@@ -37,9 +33,9 @@ export const ReactIcon = () => (
 
 export const TailwindIcon = () => (
   <a
-    href="https://tailwindcss.com/docs/installation" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+    href="https://tailwindcss.com/docs/installation"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <svg
       width="150px"
@@ -100,9 +96,9 @@ export const TailwindIcon = () => (
 
 export const JavaScriptIcon = () => (
   <a
-    href="https://developer.mozilla.org/en-US/docs/Web/javascript" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+    href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -130,9 +126,9 @@ export const JavaScriptIcon = () => (
 
 export const TypeScriptIcon = () => (
   <a
-    href="https://www.typescriptlang.org/docs/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+    href="https://www.typescriptlang.org/docs/"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -164,8 +160,8 @@ export const TypeScriptIcon = () => (
 export const CPPIcon = () => (
   <a
     href="https://learn.microsoft.com/en-us/cpp/?view=msvc-170"
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -217,9 +213,9 @@ export const CPPIcon = () => (
 
 export const HTMLIcon = () => (
   <a
-    href="https://developer.mozilla.org/en-US/docs/Web/HTML" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <svg
       width="100px"
@@ -308,98 +304,11 @@ export const HTMLIcon = () => (
   </a>
 );
 
-export const CSSIcon = () => (
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/CSS" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
-    <svg
-      width="100px"
-      height="100px"
-      viewBox="-52.5 0 361 361"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
-      preserveAspectRatio="xMidYMid"
-      fill="#000000"
-      className="mx-auto transform transition-transform duration-300 hover:scale-105 cursor-pointer"
-    >
-      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      ></g>
-      <g id="SVGRepo_iconCarrier">
-        {" "}
-        <g>
-          {" "}
-          <path
-            d="M127.843868,360.087912 L23.6617143,331.166242 L0.445186813,70.7657143 L255.554813,70.7657143 L232.31367,331.125451 L127.843868,360.087912 L127.843868,360.087912 Z"
-            fill="#264DE4"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M212.416703,314.546637 L232.277802,92.0573187 L128,92.0573187 L128,337.950242 L212.416703,314.546637 L212.416703,314.546637 Z"
-            fill="#2965F1"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M53.6685714,188.636132 L56.530989,220.572835 L128,220.572835 L128,188.636132 L53.6685714,188.636132 L53.6685714,188.636132 Z"
-            fill="#EBEBEB"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M47.917011,123.994725 L50.8202198,155.932132 L128,155.932132 L128,123.994725 L47.917011,123.994725 L47.917011,123.994725 Z"
-            fill="#EBEBEB"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M128,271.580132 L127.860044,271.617407 L92.2915165,262.013187 L90.0177582,236.54189 L57.957978,236.54189 L62.4323516,286.687648 L127.853011,304.848879 L128,304.808088 L128,271.580132 L128,271.580132 Z"
-            fill="#EBEBEB"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M60.4835165,0 L99.1648352,0 L99.1648352,16.1758242 L76.6593407,16.1758242 L76.6593407,32.3516484 L99.1648352,32.3516484 L99.1648352,48.5274725 L60.4835165,48.5274725 L60.4835165,0 L60.4835165,0 Z"
-            fill="#000000"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M106.901099,0 L145.582418,0 L145.582418,14.0659341 L123.076923,14.0659341 L123.076923,16.8791209 L145.582418,16.8791209 L145.582418,49.2307692 L106.901099,49.2307692 L106.901099,34.4615385 L129.406593,34.4615385 L129.406593,31.6483516 L106.901099,31.6483516 L106.901099,0 L106.901099,0 Z"
-            fill="#000000"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M153.318681,0 L192,0 L192,14.0659341 L169.494505,14.0659341 L169.494505,16.8791209 L192,16.8791209 L192,49.2307692 L153.318681,49.2307692 L153.318681,34.4615385 L175.824176,34.4615385 L175.824176,31.6483516 L153.318681,31.6483516 L153.318681,0 L153.318681,0 Z"
-            fill="#000000"
-          >
-            {" "}
-          </path>{" "}
-          <path
-            d="M202.126769,188.636132 L207.892396,123.994725 L127.889582,123.994725 L127.889582,155.932132 L172.892132,155.932132 L169.98611,188.636132 L127.889582,188.636132 L127.889582,220.572835 L167.216527,220.572835 L163.509451,261.992791 L127.889582,271.606857 L127.889582,304.833407 L193.362286,286.687648 L193.842637,281.291956 L201.347516,197.212132 L202.126769,188.636132 L202.126769,188.636132 Z"
-            fill="#FFFFFF"
-          >
-            {" "}
-          </path>{" "}
-        </g>{" "}
-      </g>
-    </svg>
-  </a>
-);
-
 export const SQLIcon = () => (
   <a
-    href="https://dev.mysql.com/doc/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+    href="https://dev.mysql.com/doc/"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <svg
       width="100px"
@@ -446,132 +355,8 @@ export const SQLIcon = () => (
   </a>
 );
 
-export const PythonIcon = () => (
-  <a
-    href="https://docs.python.org/3/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
-    <svg
-      width="100px"
-      height="100px"
-      viewBox="0 0 32 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="mx-auto transform transition-transform duration-300 hover:scale-105 cursor-pointer"
-    >
-      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      ></g>
-      <g id="SVGRepo_iconCarrier">
-        {" "}
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M13.0164 2C10.8193 2 9.03825 3.72453 9.03825 5.85185V8.51852H15.9235V9.25926H5.97814C3.78107 9.25926 2 10.9838 2 13.1111L2 18.8889C2 21.0162 3.78107 22.7407 5.97814 22.7407H8.27322V19.4815C8.27322 17.3542 10.0543 15.6296 12.2514 15.6296H19.5956C21.4547 15.6296 22.9617 14.1704 22.9617 12.3704V5.85185C22.9617 3.72453 21.1807 2 18.9836 2H13.0164ZM12.0984 6.74074C12.8589 6.74074 13.4754 6.14378 13.4754 5.40741C13.4754 4.67103 12.8589 4.07407 12.0984 4.07407C11.3378 4.07407 10.7213 4.67103 10.7213 5.40741C10.7213 6.14378 11.3378 6.74074 12.0984 6.74074Z"
-          fill="url(#paint0_linear_87_8204)"
-        ></path>{" "}
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M18.9834 30C21.1805 30 22.9616 28.2755 22.9616 26.1482V23.4815L16.0763 23.4815L16.0763 22.7408L26.0217 22.7408C28.2188 22.7408 29.9998 21.0162 29.9998 18.8889V13.1111C29.9998 10.9838 28.2188 9.25928 26.0217 9.25928L23.7266 9.25928V12.5185C23.7266 14.6459 21.9455 16.3704 19.7485 16.3704L12.4042 16.3704C10.5451 16.3704 9.03809 17.8296 9.03809 19.6296L9.03809 26.1482C9.03809 28.2755 10.8192 30 13.0162 30H18.9834ZM19.9015 25.2593C19.1409 25.2593 18.5244 25.8562 18.5244 26.5926C18.5244 27.329 19.1409 27.9259 19.9015 27.9259C20.662 27.9259 21.2785 27.329 21.2785 26.5926C21.2785 25.8562 20.662 25.2593 19.9015 25.2593Z"
-          fill="url(#paint1_linear_87_8204)"
-        ></path>{" "}
-        <defs>
-          {" "}
-          <linearGradient
-            id="paint0_linear_87_8204"
-            x1="12.4809"
-            y1="2"
-            x2="12.4809"
-            y2="22.7407"
-            gradientUnits="userSpaceOnUse"
-          >
-            {" "}
-            <stop stopColor="#327EBD"></stop>{" "}
-            <stop offset="1" stopColor="#1565A7"></stop>{" "}
-          </linearGradient>{" "}
-          <linearGradient
-            id="paint1_linear_87_8204"
-            x1="19.519"
-            y1="9.25928"
-            x2="19.519"
-            y2="30"
-            gradientUnits="userSpaceOnUse"
-          >
-            {" "}
-            <stop stopColor="#FFDA4B"></stop>{" "}
-            <stop offset="1" stopColor="#F9C600"></stop>{" "}
-          </linearGradient>{" "}
-        </defs>{" "}
-      </g>
-    </svg>
-  </a>
-);
-
-export const JavaIcon = () => (
-  <a
-    href="https://docs.oracle.com/en/java/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
-    <svg
-      width="100px"
-      height="100px"
-      viewBox="-118.513 4.399 540.906 540.906"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="#000000"
-      className="mx-auto transform transition-transform duration-300 hover:scale-105 cursor-pointer"
-    >
-      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      ></g>
-      <g id="SVGRepo_iconCarrier">
-        <path
-          d="M285.104 430.945h-2.037v-1.14h5.486v1.14h-2.025v5.688h-1.424v-5.688zm10.942.297h-.032l-2.02 5.393h-.924l-2.006-5.393h-.024v5.393h-1.343v-6.828h1.976l1.86 4.835 1.854-4.835h1.969v6.828h-1.311l.001-5.393z"
-          fill="#e76f00"
-        ></path>
-        <path
-          d="M102.681 291.324s-14.178 8.245 10.09 11.035c29.4 3.354 44.426 2.873 76.825-3.259 0 0 8.518 5.341 20.414 9.967-72.63 31.128-164.376-1.803-107.329-17.743M93.806 250.704s-15.902 11.771 8.384 14.283c31.406 3.24 56.208 3.505 99.125-4.759 0 0 5.937 6.018 15.271 9.309-87.815 25.678-185.624 2.025-122.78-18.833"
-          fill="#5382a1"
-        ></path>
-        <path
-          d="M168.625 181.799c17.896 20.604-4.701 39.146-4.701 39.146s45.439-23.458 24.571-52.833c-19.491-27.395-34.438-41.005 46.479-87.934.001-.001-127.013 31.721-66.349 101.621"
-          fill="#e76f00"
-        ></path>
-        <path
-          d="M264.684 321.369s10.492 8.646-11.555 15.333c-41.923 12.7-174.488 16.535-211.314.507-13.238-5.76 11.587-13.752 19.396-15.429 8.144-1.766 12.798-1.437 12.798-1.437-14.722-10.371-95.157 20.363-40.857 29.166 148.084 24.015 269.944-10.814 231.532-28.14M109.499 208.617s-67.431 16.016-23.879 21.832c18.389 2.462 55.047 1.905 89.192-.956 27.906-2.354 55.928-7.358 55.928-7.358s-9.84 4.214-16.959 9.074c-68.475 18.01-200.756 9.631-162.674-8.79 32.206-15.568 58.392-13.802 58.392-13.802M230.462 276.231c69.608-36.171 37.425-70.932 14.96-66.248-5.506 1.146-7.961 2.139-7.961 2.139s2.045-3.202 5.947-4.588c44.441-15.624 78.619 46.081-14.346 70.521 0 0 1.079-.962 1.4-1.824"
-          fill="#5382a1"
-        ></path>
-        <path
-          d="M188.495 4.399s38.55 38.562-36.563 97.862c-60.233 47.567-13.735 74.689-.025 105.678-35.158-31.723-60.96-59.647-43.65-85.637 25.406-38.151 95.792-56.648 80.238-117.903"
-          fill="#e76f00"
-        ></path>
-        <path
-          d="M116.339 374.246c66.815 4.277 169.417-2.373 171.846-33.987 0 0-4.67 11.984-55.219 21.503-57.027 10.731-127.364 9.479-169.081 2.601.002-.002 8.541 7.067 52.454 9.883"
-          fill="#5382a1"
-        ></path>
-        <path
-          d="M105.389 495.049c-6.303 5.467-12.96 8.536-18.934 8.536-8.527 0-13.134-5.113-13.134-13.314 0-8.871 4.937-15.357 24.739-15.357h7.328l.001 20.135m17.392 19.623V453.93c0-15.518-8.85-25.756-30.188-25.756-12.457 0-23.369 3.076-32.238 6.999l2.56 10.752c6.983-2.563 16.022-4.949 24.894-4.949 12.292 0 17.58 4.949 17.58 15.181v7.678h-6.135c-29.865 0-43.337 11.593-43.337 28.993 0 15.018 8.878 23.554 25.594 23.554 10.745 0 18.766-4.437 26.264-10.929l1.361 9.221 13.645-.002zM180.824 514.672h-21.691l-26.106-84.96h18.944l16.198 52.199 3.601 15.699c8.195-22.698 13.992-45.726 16.891-67.898h18.427c-4.938 27.976-13.822 58.684-26.264 84.96M264.038 495.049c-6.315 5.467-12.983 8.536-18.958 8.536-8.512 0-13.131-5.113-13.131-13.314 0-8.871 4.947-15.357 24.748-15.357h7.341v20.135m17.39 19.623V453.93c0-15.518-8.871-25.756-30.186-25.756-12.465 0-23.381 3.076-32.246 6.999l2.557 10.752c6.985-2.563 16.041-4.949 24.906-4.949 12.283 0 17.579 4.949 17.579 15.181v7.678h-6.146c-29.873 0-43.34 11.593-43.34 28.993 0 15.018 8.871 23.554 25.584 23.554 10.752 0 18.77-4.437 26.28-10.929l1.366 9.221 13.646-.002zM36.847 529.099c-4.958 7.239-12.966 12.966-21.733 16.206L6.527 535.2c6.673-3.424 12.396-8.954 15.055-14.104 2.3-4.581 3.252-10.485 3.252-24.604v-96.995h18.478v95.666c-.001 18.875-1.51 26.5-6.465 33.936"
-          fill="#e76f00"
-        ></path>
-      </g>
-    </svg>
-  </a>
-);
-
 export const GitIcon = () => (
-  <a
-    href="https://git-scm.com/doc" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
+  <a href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer">
     <svg
       width="101px"
       height="101px"
@@ -624,11 +409,7 @@ export const GitIcon = () => (
 );
 
 export const BashIcon = () => (
-  <a
-    href="https://devdocs.io/bash/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
+  <a href="https://devdocs.io/bash/" target="_blank" rel="noopener noreferrer">
     <svg
       width="115px"
       height="115px"
@@ -695,95 +476,11 @@ export const BashIcon = () => (
   </a>
 );
 
-export const GoIcon = () => (
-  <a
-    href="https://go.dev/doc/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
-    <svg
-      width="101px"
-      height="101px"
-      viewBox="0 0 32 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="mx-auto transform transition-transform duration-300 hover:scale-105 cursor-pointer"
-    >
-      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      ></g>
-      <g id="SVGRepo_iconCarrier">
-        {" "}
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M18.1177 14.0442C17.7408 14.1497 17.3586 14.2566 16.9162 14.3768C16.7001 14.438 16.6509 14.4519 16.4498 14.2074C16.2086 13.9194 16.0317 13.7331 15.6939 13.5636C14.6807 13.0384 13.6996 13.1909 12.7829 13.8178C11.6893 14.5632 11.1264 15.6644 11.1425 17.0367C11.1585 18.3921 12.0431 19.5103 13.3137 19.6966C14.4073 19.8491 15.324 19.4425 16.0477 18.5785C16.1924 18.3922 16.3212 18.1887 16.482 17.9516H13.378C13.0402 17.9516 12.9598 17.7314 13.0724 17.4433C13.2815 16.9181 13.6675 16.0372 13.8926 15.5967C13.9409 15.495 14.0535 15.3256 14.2947 15.3256H19.4702C19.7027 14.5496 20.0799 13.8164 20.5831 13.1226C21.7572 11.4961 23.1725 10.649 25.0863 10.2933C26.7268 9.9883 28.2707 10.1577 29.6699 11.1573C30.9405 12.0722 31.7285 13.3089 31.9376 14.9354C32.211 17.2225 31.5838 19.0862 30.0881 20.6787C29.0266 21.8138 27.7239 22.5254 26.2282 22.8473C25.9429 22.9029 25.6576 22.9293 25.3768 22.9553C25.2303 22.9689 25.085 22.9823 24.9416 22.9998C23.478 22.9659 22.1432 22.5254 21.0173 21.5089C20.2256 20.7879 19.6803 19.9019 19.4092 18.8705C19.2211 19.2707 18.9962 19.6539 18.7336 20.0185C17.5756 21.628 16.0638 22.6276 14.15 22.8987C12.5738 23.1189 11.1103 22.797 9.82366 21.7805C8.63353 20.8317 7.95805 19.578 7.78114 18.0194C7.57206 16.1727 8.08671 14.5124 9.14818 13.0554C10.2901 11.4798 11.8019 10.4802 13.6514 10.1244C15.1632 9.8364 16.6106 10.0228 17.9134 10.9546C18.7657 11.5475 19.3769 12.3608 19.779 13.3434C19.8755 13.4959 19.8111 13.5806 19.6181 13.6314C19.0545 13.7822 18.5903 13.9121 18.1177 14.0442ZM28.7581 15.974C28.7613 16.0309 28.7646 16.0909 28.7693 16.1552C28.6889 17.6122 27.9973 18.6965 26.7268 19.3911C25.8744 19.8485 24.9898 19.8994 24.1053 19.4928C22.9473 18.9506 22.3361 17.6122 22.6256 16.2907C22.9795 14.6982 23.9444 13.6986 25.4401 13.3428C26.968 12.9701 28.4316 13.9188 28.7211 15.5961C28.7438 15.7161 28.7505 15.836 28.7581 15.974Z"
-          fill="#00ACD7"
-        ></path>{" "}
-        <path
-          d="M2.44461 13.8517C2.41244 13.9025 2.42852 13.9364 2.49285 13.9364L7.2826 13.9534C7.33085 13.9534 7.41126 13.9025 7.44343 13.8517L7.71684 13.4112C7.749 13.3604 7.73292 13.3096 7.66859 13.3096H2.95926C2.89493 13.3096 2.81451 13.3435 2.78235 13.3943L2.44461 13.8517Z"
-          fill="#00ACD7"
-        ></path>{" "}
-        <path
-          d="M0.0160829 15.4103C-0.0160829 15.4611 7.45058e-09 15.495 0.0643316 15.495L6.63928 15.4781C6.70361 15.4781 6.76794 15.4442 6.78402 15.3764L6.91269 14.9698C6.92877 14.919 6.8966 14.8682 6.83227 14.8682H0.530735C0.466404 14.8682 0.385989 14.902 0.353823 14.9529L0.0160829 15.4103Z"
-          fill="#00ACD7"
-        ></path>{" "}
-        <path
-          d="M3.90813 16.9521C3.87596 17.0029 3.89204 17.0537 3.95638 17.0537L6.43019 17.0707C6.47843 17.0707 6.54277 17.0199 6.54277 16.9521L6.57493 16.5455C6.57493 16.4777 6.54277 16.4269 6.47843 16.4269H4.29412C4.22978 16.4269 4.16545 16.4777 4.13329 16.5285L3.90813 16.9521Z"
-          fill="#00ACD7"
-        ></path>{" "}
-      </g>
-    </svg>
-  </a>
-);
-
-export const AWSIcon = () => (
-  <a
-    href="https://docs.aws.amazon.com/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
-  >
-    <svg
-      width="101px"
-      height="101px"
-      viewBox="0 -30 150 150"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="mx-auto transform transition-transform duration-300 hover:scale-105 cursor-pointer"
-    >
-      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      ></g>
-      <g id="SVGRepo_iconCarrier">
-        {" "}
-        <path
-          d="M122.714 62.703c5.28-.643 16.924-2.027 18.997.643 2.072 2.621-2.319 13.649-4.293 18.544-.592 1.484.691 2.077 2.023.94 8.684-7.319 10.954-22.6 9.178-24.825-1.777-2.175-17.023-4.055-26.3 2.473-1.431 1.038-1.184 2.423.395 2.225z"
-          fill="#F90"
-        ></path>{" "}
-        <path
-          d="M74.852 89.456c20.28 0 43.865-6.38 60.099-18.396 2.664-1.978.345-4.994-2.369-3.758-18.207 7.714-37.993 11.473-56.003 11.473-26.694 0-52.5-7.368-73.42-19.533-1.827-1.088-3.208.791-1.679 2.176 19.343 17.505 44.951 28.038 73.372 28.038z"
-          fill="#F90"
-        ></path>{" "}
-        <path
-          d="M42.632 32.835c0 1.83.197 3.313.542 4.401a26.505 26.505 0 001.58 3.56c.246.396.345.792.345 1.138 0 .495-.296.99-.938 1.484l-3.108 2.077c-.444.296-.889.445-1.283.445-.494 0-.987-.248-1.48-.693a15.29 15.29 0 01-1.777-2.324 38.28 38.28 0 01-1.53-2.918c-3.848 4.55-8.684 6.825-14.506 6.825-4.145 0-7.45-1.187-9.868-3.56-2.418-2.374-3.652-5.54-3.652-9.495 0-4.204 1.48-7.616 4.49-10.187 3.01-2.572 7.007-3.857 12.09-3.857 1.677 0 3.404.148 5.23.395 1.825.248 3.7.643 5.674 1.088v-3.61c0-3.758-.79-6.379-2.32-7.912-1.578-1.533-4.243-2.274-8.042-2.274-1.727 0-3.503.197-5.329.642a39.247 39.247 0 00-5.329 1.682 14.14 14.14 0 01-1.727.643c-.345.098-.592.148-.79.148-.69 0-1.036-.494-1.036-1.533V6.577c0-.791.1-1.385.346-1.73.246-.347.69-.693 1.381-1.04 1.727-.89 3.8-1.631 6.217-2.225C20.23.94 22.797.642 25.51.642c5.872 0 10.164 1.336 12.927 4.006 2.714 2.67 4.096 6.726 4.096 12.165v16.022h.099zm-20.033 7.517c1.628 0 3.306-.297 5.082-.89 1.776-.594 3.355-1.682 4.687-3.165.79-.94 1.382-1.978 1.678-3.165.296-1.187.493-2.621.493-4.302v-2.077a41.135 41.135 0 00-4.539-.84 37.099 37.099 0 00-4.638-.298c-3.306 0-5.724.643-7.352 1.978-1.628 1.336-2.418 3.215-2.418 5.687 0 2.324.592 4.055 1.826 5.242 1.184 1.236 2.911 1.83 5.18 1.83zm39.621 5.34c-.888 0-1.48-.148-1.875-.494-.394-.297-.74-.99-1.036-1.929L47.714 5.044c-.296-.99-.444-1.632-.444-1.978 0-.791.394-1.236 1.184-1.236h4.835c.938 0 1.58.148 1.925.494.395.297.69.99.987 1.929l8.29 32.736 7.697-32.736c.246-.99.542-1.632.937-1.929.395-.297 1.085-.494 1.974-.494h3.947c.938 0 1.579.148 1.974.494.395.297.74.99.937 1.929l7.796 33.132L98.29 4.253c.295-.99.64-1.632.986-1.929.395-.297 1.036-.494 1.925-.494h4.588c.79 0 1.234.395 1.234 1.236 0 .247-.049.494-.099.791a7.041 7.041 0 01-.345 1.236L94.688 43.32c-.297.989-.642 1.631-1.037 1.928-.394.297-1.036.495-1.875.495h-4.243c-.938 0-1.58-.149-1.974-.495-.394-.346-.74-.989-.937-1.978l-7.648-31.895-7.599 31.846c-.247.989-.543 1.632-.938 1.978-.394.346-1.085.494-1.973.494H62.22zm63.405 1.336c-2.566 0-5.132-.297-7.599-.89-2.467-.594-4.391-1.237-5.674-1.979-.79-.445-1.332-.94-1.53-1.384a3.503 3.503 0 01-.296-1.385v-2.522c0-1.038.395-1.533 1.135-1.533.296 0 .592.05.888.148.296.1.74.297 1.234.495a26.791 26.791 0 005.428 1.73c1.973.396 3.898.594 5.871.594 3.109 0 5.527-.544 7.204-1.632 1.678-1.088 2.566-2.67 2.566-4.698 0-1.384-.444-2.521-1.332-3.461-.888-.94-2.566-1.78-4.984-2.571l-7.154-2.226c-3.602-1.137-6.267-2.818-7.895-5.044-1.628-2.176-2.467-4.599-2.467-7.17 0-2.077.444-3.907 1.332-5.489.888-1.582 2.072-2.967 3.553-4.055 1.48-1.137 3.157-1.978 5.131-2.571 1.974-.594 4.046-.841 6.217-.841 1.086 0 2.221.05 3.306.198 1.135.148 2.171.346 3.207.544.987.247 1.925.494 2.813.79.888.298 1.579.594 2.072.891.691.396 1.185.791 1.481 1.236.296.396.444.94.444 1.632V8.16c0 1.039-.395 1.583-1.135 1.583-.395 0-1.036-.198-1.875-.594-2.813-1.285-5.971-1.928-9.474-1.928-2.812 0-5.033.445-6.562 1.384-1.53.94-2.319 2.374-2.319 4.402 0 1.384.493 2.57 1.48 3.51s2.812 1.88 5.427 2.72l7.007 2.226c3.553 1.137 6.118 2.72 7.648 4.747 1.53 2.027 2.27 4.351 2.27 6.923 0 2.126-.444 4.055-1.283 5.736-.888 1.681-2.072 3.165-3.602 4.352-1.53 1.236-3.355 2.126-5.477 2.769-2.22.692-4.54 1.039-7.056 1.039z"
-          fill="#252F3E"
-        ></path>{" "}
-      </g>
-    </svg>
-  </a>
-);
-
 export const NodeJSIcon = () => (
   <a
-    href="https://nodejs.org/docs/latest/api/" // Replace with your desired external link
-    target="_blank" // Open the link in a new tab
-    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+    href="https://nodejs.org/docs/latest/api/"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <svg
       width="101px"
